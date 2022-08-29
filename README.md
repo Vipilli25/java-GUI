@@ -45,7 +45,7 @@ ResultSet rs = stmt.executeQuery(QUERY);
 Variable rs points to a row in the table and hence used in printing 
 data from each column of the table
 ```bash
-System.out.print("stuydent_Name: " + rs.getString("student_name"));
+System.out.print("student_Name: " + rs.getString("student_name"));
 System.out.print(", Roll_no: " + rs.getString("branch_name"));
 ```
 **Run the program and you will get the required result**
